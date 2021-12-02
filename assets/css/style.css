@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+body>* {
+    padding: 0 20rem;
+    overflow: none;
+}
+
+body>div {
+    height: 20vw;
+}
+
+/*
+Colors and Sizes
+----------------------------------
+*/
+.dark-background {
+    background-color: #1f2937;
+}
+
+.whitefont {
+    color: #f9faf8;
+}
+
+.grey {
+    background-color: #e5e7eb;
+}
+
+.lightblue {
+    background-color: #3882f6;
+}
+
+.greyfont{
+    color: #e5e7eb;
+}
+
+.fz18px {
+font-size: 18px;
+}
+
+
+/*
+----------------------------------
+*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header>h3 {
+    font-size: 24px;
+}
+
+header>div {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero.dark-background {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero.dark-background>div {
+    flex: 1;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+}
+
+.hero-main>div {
+    margin-bottom: 20px;
+}
+.hero-main>div>a {
+    border-radius: 5px;
+    padding: 7px 1.5rem;
+}
+
+.hero-main>img {
+    width: 300px;
+    max-height: 20%;
+    }
+
+body>h2 {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 auto;
+}
+
+.boxes>div {
+    width: 150px;
+}
+
+.boxes>div>div {
+    border: 5px solid #3882f6;
+    height: 150px;
+    border-radius: 10px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px inherit;
+}
+
+q {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote>div>p {
+    font-weight: 900;
+    text-align: end;
+}
+
+.penultimate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:auto;
+}
+
+.penultimate>div {
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.penultimate>div>a {
+    align-self: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
